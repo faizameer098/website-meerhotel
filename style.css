@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { line-height: 1.6; color: #333; }
+
+/* Header */
+header { background: #1a1a1a; color: #fff; padding: 20px; position: fixed; width: 100%; top: 0; z-index: 1000; }
+nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
+nav h1 { color: #d4af37; }
+nav ul { list-style: none; display: flex; gap: 20px; }
+nav a { color: #fff; text-decoration: none; }
+
+/* Hero */
+.hero { background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200') center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff; margin-top: 60px; }
+.hero-content { background: rgba(0,0,0,0.5); padding: 40px; border-radius: 10px; }
+.hero h2 { font-size: 3rem; margin-bottom: 10px; }
+.btn { background: #d4af37; color: #000; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; font-weight: bold; border: none; cursor: pointer; }
+
+/* Sections */
+section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+.rooms { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 30px; }
+.room-card { border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.room-card img { width: 100%; height: 200px; object-fit: cover; }
+.room-card div { padding: 20px; }
+
+/* Contact */
+.contact { background: #f4f4f4; text-align: center; }
+.contact form { max-width: 500px; margin: 20px auto; display: flex;}
